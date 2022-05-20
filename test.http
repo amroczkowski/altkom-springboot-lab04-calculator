@@ -1,0 +1,15 @@
+GET http://localhost:8080/app/calculator/add/a/5/b/6
+
+###
+
+GET http://localhost:8080/app/calculator/subtract/a/5/b/6
+
+###
+
+GET http://localhost:8080/app/calculator/multiply/a/5/b/6
+
+###
+
+GET http://localhost:8080/app/calculator/divide/a/5/b/6
+
+###
