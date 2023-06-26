@@ -17,7 +17,7 @@ public class CalculatorService {
         return a * b;
     }
 
-    public Float divide(final Float a, final Float b) {
-        return a / b;
+    public Float divide(final Integer a, final Integer b) {
+        return (float)(a / b);
     }
 }

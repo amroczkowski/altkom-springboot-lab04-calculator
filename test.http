@@ -10,6 +10,6 @@ GET http://localhost:8080/app/calculator/multiply/a/5/b/6
 
 ###
 
-GET http://localhost:8080/app/calculator/divide/a/5/b/6
+GET http://localhost:8080/app/calculator/divide/a/5/b/0
 
 ###

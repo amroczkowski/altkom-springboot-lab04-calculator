@@ -2,7 +2,6 @@ package pl.altkom.springboot.lab04.calculator.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -32,7 +31,7 @@ public class CalculatorController {
     }
 
     @GetMapping("/divide/a/{a}/b/{b}")
-    public Float divide(@PathVariable("a") final Float a, @PathVariable("b") final Float b) {
+    public Float divide(@PathVariable("a") final Integer a, @PathVariable("b") final Integer b) {
         return calculatorService.divide(a, b);
     }
 }

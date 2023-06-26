@@ -13,7 +13,7 @@ class CalculatorServiceTest {
     private CalculatorService calculatorService;
 
     @Test
-    public void should_add_two_values() {
+    void should_add_two_values() {
 
         //given
         final Float a = 5f;
